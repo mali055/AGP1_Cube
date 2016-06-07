@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\AGP1_Cube.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DD6AA1F4-5EDB-4003-9E71-353EDC1772D1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AGP1_Cube.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\AGP1_CubeEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{032BF8F7-6FB6-4B02-A5C3-F12E51CE7CA2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\AGP1_Cube">
+			<UniqueIdentifier>{361257DC-FC49-476E-B617-629665C7B23C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\AGP1_Cube\AGP1_Cube.Build.cs">
+			<Filter>Source\AGP1_Cube</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\AGP1_Cube\AGP1_Cube.cpp">
+			<Filter>Source\AGP1_Cube</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\AGP1_Cube\AGP1_Cube.h">
+			<Filter>Source\AGP1_Cube</Filter>
+		</ClInclude >
+		<Filter Include="Source\AGP1_Cube\Private">
+			<UniqueIdentifier>{A787690C-40FC-4B54-8316-A796363FCC28}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\AGP1_Cube\Private\CudeRoom.cpp">
+			<Filter>Source\AGP1_Cube\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\AGP1_Cube\Public">
+			<UniqueIdentifier>{E3C765D9-9204-40CC-AB35-F83D72B0838B}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\AGP1_Cube\Public\CudeRoom.h">
+			<Filter>Source\AGP1_Cube\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
