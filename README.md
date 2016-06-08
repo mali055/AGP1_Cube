@@ -57,7 +57,7 @@ The logic was that I had a single dimensional array representing a three dimensi
 
 ![rotation1](https://github.com/mali055/AGP1_Cube/blob/master/img/rotation1.png)
 
-Other small mechanics like killing the player in a death room , contecting the values mentioned above with the interfaces were also done.
+Other small mechanics like killing the player in a death room , connecting the values mentioned above with the interfaces were also done.
 
 
 ### Conclusion:
