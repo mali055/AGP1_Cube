@@ -55,7 +55,7 @@ This came in two forms the Level Blueprint and the GameMode Blueprint along with
 
 The logic was that I had a single dimensional array representing a three dimensional array of rooms (this was a struct with an XYZ ID (origin), and a numerical ID for the player, and a boolean for if it was a trap or not. This got messy when all the nested loops were needed to access everything. Then a smaller one telling the controller which were the rooms surrounding him. An update timer that rotation all the rooms in the array, The rotation of rooms was by far the more difficult task to do in this project as handling a complicated three dimensional array and moving things around in it. Basically every layer (think onion layers) magically teleported one step ahead in a clock wise / anti clock wise (alternatively to keep it jumbled at all time, if they moved together it would still be easy) direction around a randomly selected axis (at start of game)
 
-![rotation1](https://github.com/mali055/AGP1_Cube/blob/master/img/rotation1.PNG)
+![rotation1](https://github.com/mali055/AGP1_Cube/blob/master/img/rotation1.png)
 
 Other small mechanics like killing the player in a death room , contecting the values mentioned above with the interfaces were also done.
 
